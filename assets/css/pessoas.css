@@ -1,0 +1,18 @@
+.pessoas{
+    display: flex; /*colocar lado a lado*/
+    padding-top: 3rem;
+    justify-content: space-around;/*deve ter espaço entre todas as caixas*/
+}
+/*ESTILIZAR EM ORDEM ALFABETICA É UMA BOA PRATICA*/
+
+@media screen and (min-width: 0){
+    .pessoas{
+        flex-direction: column; /*colocar em coluna*/
+    }
+}
+@media screen and (min-width: 768px){
+    .pessoas{
+        flex-direction: row; 
+        /*row, fazendo com que elas voltem a ser exibidas em lista.*/
+    }
+}

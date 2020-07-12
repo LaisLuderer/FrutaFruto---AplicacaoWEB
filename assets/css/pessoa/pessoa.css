@@ -1,0 +1,18 @@
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+/*
+add margem inferior entre as pessoas quando o site
+ exibido em telas menores.
+*/
+@media screen and (min-width: 0){
+    .pessoa{
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .pessoa{
+        margin-bottom: 0;
+    }
+}

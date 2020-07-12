@@ -1,0 +1,21 @@
+.pessoa__imagem{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto; /*auto -> centralizar a imagem*/
+    background-position: center;
+    background-size: cover; /*informando que img deve ocupar tudo*/
+    /*informando caso o espaço da img menor nao repetir
+    a img */
+    background-repeat: no-repeat;
+    border-radius: 100%;
+
+}
+.pessoa__imagem--roberta{
+    background-image: url('../../img/pessoas/roberta.jpg');/*(../) -> para sair da pasta que estou*/
+}
+.pessoa__imagem--marcela{
+    background-image: url('../../img/pessoas/marcela.jpg')
+}
+.pessoa__imagem--andreia{
+    background-image: url('../../img/pessoas/andreia.jpg');
+}
