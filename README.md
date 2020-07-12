@@ -4,4 +4,4 @@
   - CSS
   - JavaScript
 
->>Interface responsiva utilizando o CSS.
+>Interface responsiva utilizando o CSS.
