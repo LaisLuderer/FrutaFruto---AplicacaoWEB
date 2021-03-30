@@ -1,5 +1,6 @@
 # FrutaFruto---AplicacaoWEB
-## Ferramentas Front-End utilizados:
+  https://laisluderer.github.io/FrutaFruto---AplicacaoWEB/
+## Ferramentas utilizados:
   - HTML
   - CSS
   - JavaScript
